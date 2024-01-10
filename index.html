@@ -25,28 +25,39 @@
 
     <title>Frontend Mentor | Blog preview card</title>
   </head>
-  <body class="bg-yellow-300">
-    <div class="container mx-auto">
+  <body class="bg-primary-yellow">
+    <div class="container mx-auto p-4">
       <div
-        class="container w-96 rounded-3xl border-2 border-black bg-white p-4"
+        class="container bg-white p-6 rounded-2xl border-2 border-black w-96"
       >
         <img
           src="./assets/images/illustration-article.svg"
-          alt="illustration"
+          alt="Illustration"
+          class="w-full rounded-xl"
         />
-        <p class="p-2">Learning</p>
-        <p class="p-2">Published 21 Dec 2023</p>
-        <p class="p-2 text-2xl font-semibold">HTML & CSS foundations</p>
-        <p class="text-base text-gray-500 p-4">
-          These languages are the backbone of every website, defining structure,
-          content, and presentation.
-        </p>
-        <div>
-          <img src="./assets/images/image-avatar.webp" alt="icon" />
-          <p class="font-semibold">Greg Hooper</p>
+        <div class="mt-4">
+          <p
+            class="mt-1 mb-4 px-2 py-1 bg-yellow-300 text-sm font-semibold rounded-md w-20 text-center"
+          >
+            Learning
+          </p>
+          <p class="text-gray-700 text-sm">Published 21 Dec 2023</p>
+          <h3 class="text-2xl font-semibold mt-2">HTML & CSS Foundations</h3>
+          <p class="text-neutral-gray mt-2">
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
+          <div class="flex items-center mt-4">
+            <img
+              src="./assets/images/image-avatar.webp"
+              alt="Icon"
+              class="w-10 h-10 mr-4"
+            />
+            <p class="font-semibold text-sm">Greg Hooper</p>
+          </div>
         </div>
       </div>
-      <div class="mx-auto p-4 text-xs">
+      <div class="text-xs text-center mt-4 bottom-0">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
