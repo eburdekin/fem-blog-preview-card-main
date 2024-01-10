@@ -5,6 +5,9 @@ module.exports = {
     fontFamily: {
       sans: ["Figtree", "sans-serif"],
     },
+    container: {
+      center: true,
+    },
     extend: {},
   },
   plugins: [],
