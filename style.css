@@ -8,3 +8,16 @@
         /* Solid black inner shadow */
         5px 5px 0 1px rgba(0, 0, 0, 0.4)
 }
+
+.container {
+    display: flex;
+    /* Enable flexbox for the container */
+    flex-direction: column;
+    /* Arrange elements vertically */
+    align-items: center;
+    /* Vertically center the child element */
+    justify-content: center;
+    /* Optional for horizontal centering as well */
+    height: 100vh;
+    /* Ensure container fills the viewport height */
+}
